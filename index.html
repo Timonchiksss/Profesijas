@@ -1,0 +1,89 @@
+<!-- Mājas lapas dizains. Оформление сайта:background-color- цвет фона, font- шрифт... 
+https://www.w3schools.com/html/default.asp-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+
+<script>
+function krasa1(){
+  document.getElementById('menu').style.background='#6495ED';
+}
+</script>
+<script>
+function krasa2(){
+  document.getElementById('menu').style.background='#808000';
+}
+
+</script>
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML="Paragraph changed.";
+}
+
+</script>
+  </head>
+  <body>
+    <div class="header">
+     <img src="riga.jpg" width="200px">
+     <p>Rīgas Purvciema vidusskola</p>
+     
+    </div>
+    <div id="menu">
+
+<p><a href="index.html">Galvēna</a></p>
+<p><a href="profesija.html">Profesija</a></p>
+
+    </div>
+    <div id="content">
+   <p>Mūsdienās karjera ir cilvēka resursu efektīva izmantošana dzīves mērķu sasniegšanai, cilvēka 
+mērķtiecīga darbība savu kompetenču pilnveidei un izpausmei visa mūža garumā. Tas ir nepārtraukts 
+mācīšanās un attīstības process.  Karjeras plānošana ir viens no svarīgākajiem uzdevumiem, par kuru  domā katrs skolēns. Plānošana tiešā veidā ietekmē to, kādu profesiju jaunietis vēlas apgūt, kur mācīties un, ko dzīvē sasniegt. Mēdz pat gadīties, ka par karjeras izvēli ģimenēs sāk domāt jau tad, kad bērni vēl mācās pamatskolā. Kā izvēlēties sev piemērotāko profesiju? 
+     Latvijas Darba devēju konfederācija (LDDK), sadarbojoties ar karjeras portālu Prakse.lv,  apkopojusi profesijas, pēc kurām šobrīd mūsu valstī ir augstākais pieprasījums. Ņemot vērā vairāk nekā 2500 darba devēju viedokli, izveidots tops, kurā pieminētas nozares, kas Latvijā konkrētajā brīdī ir nozīmīgākās:
+   </p>
+   <ul>
+     <li>programmētāji</li>
+     <li>mārketinga speciālisti</li>
+     <li>finansisti</li>
+     <li>celtnieki</li>
+     <li>inženieri</li>
+     <li>pārdevēji</li>
+     <li>ārsti un medmāsas</li>
+     <li>skolotāji</li>
+     <li>autovadītāji</li>
+     <li>pavāri</li>
+   </ul>
+   <p>Šodien mūsu grupa runās par profesijām, kuras, mūsuprāt, nākotnē var kļūt par mūsu profesijām. </p>
+   <p> <a href="https://www.creamcredit.lv/blog/pieprasitakas-profesijas-latvija" >Informācijas avots</a>  </p>
+<img src="riga2.jpg" width="200px" height="200px">
+
+
+<!-- JavaScript izmantošana -->
+<h2>JavaScript izmantošana</h2>
+<p >JavaScript var mainīt HTML elementu stilu</p>
+<p>Noklikšķiniet uz pogas, lai mainītu saturu fona krāsu </p>
+<button type="button" onclick="document.getElementById('content').style.background='#D3D3D3'">Click Me!</button>
+<button type="button" onclick="document.getElementById('content').style.background='#fdfdb1b7'">Back</button>
+
+<p> Slāņa "menu" fona krāsa </p>
+<button type="button" onclick="krasa1()">Click Me!</button>
+<button type="button" onclick="krasa2()">Back</button>
+
+    </div>
+    <div class="footer"> Rīga, 2021 </div>
+
+    
+  </body>
+</html>
+
+
+

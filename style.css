@@ -1,0 +1,124 @@
+/*  Mājas lapas dizains. Оформление сайта:background-color- цвет фона, font- шрифт... 
+https://www.w3schools.com/css/default.asp*/
+body {
+    background-color:rgba(229, 250, 171, 0.712);
+    font-family: "Verdana";
+    font-size: 13px;
+   }
+h1 {
+    color:#A52A2A;
+    font-size:18px;
+   }
+h2 {
+    font-size: 16px;
+     color: #005c80c9;
+   }
+p {
+  color: black;
+  text-align: left;
+}
+/*  Mājas lapas dizains. Оформление изображений, округление изображений 
+https://www.w3schools.com/css/css3_images.asp */
+img{
+  border-style: double;
+  border-color: #001380;
+}
+/* Dizains. Оформление изображений, рамки 
+https://www.w3schools.com/cssref/sel_class.asp */
+/* Dizains. Цвета рамок 
+https://www.w3schools.com/css/css_border.asp */
+/*  Mājas lapas dizains. Оформление изображений, округление изображений 
+https://www.w3schools.com/css/css3_images.asp */
+/*  Klases "dotted" un "dashed" noformējums. Оформление классов "dotted" и "dashed"   */
+.dotted {
+  border-style: dotted;
+  border-color: orange;
+  border-radius: 50%;
+  }
+  
+.dashed {
+  border-style: dashed;
+  border-color: green;
+  border-radius: 12px;
+  }
+
+  /*  Mājas lapas dizains. Оформление изображений, рамки 
+https://www.w3schools.com/csSref/sel_id.asp */
+/*  ID selektoru "solid" un "ridge" noformējums. Оформление ID селекторов "solid" и "ridge"  */
+#solid {
+  border: 6px;
+  border-style: solid;
+  border-color: rgb(9, 153, 236); 
+  color:brown;
+  }
+#ridge {
+  border: 6px;
+  border-style: ridge;
+  border-color: rgb(238, 11, 87); 
+  }
+
+
+
+div {
+   /*float: left;*/
+ padding: 15px; 
+  float: right;
+}
+
+ #menu{
+width: 20%;
+height:800px;
+background-color:#005c80e1;
+color:rgb(205, 226, 205);
+font-family: Georgia, Arial, Helvetica, sans-serif;
+
+
+}
+ #menu a{
+color:rgb(223, 245, 223);
+font-size:150%;
+ }
+#content {
+background-color:#fdfdb19c;
+width:70%;
+height:800px;
+
+}
+table, th, td {
+  width: 40%;
+  border: 2px solid #808000;
+  padding: 2px;
+  margin-top:10px;
+  text-align: center;
+}
+
+.footer{
+float: center;
+background-color:	rgba(161, 42, 165, 0.767);
+color:rgb(223, 245, 223);
+width:98%;
+text-align: center;
+}
+.header{
+float: center;
+background:	rgba(161, 42, 165, 0.767);
+width:98%;
+height:140px;
+}
+.header p{
+color:rgb(223, 245, 223);
+text-align: center;
+font-style: italic;
+font-size:300%;
+font-family: Georgia, Arial, Helvetica, sans-serif;
+}
+/* Attēla noapaļošana
+https://www.w3schools.com/css/css3_images.asp */ 
+.header img {
+border-radius: 20%;
+border-style: solid;
+border-color: #808000;
+float: left;
+margin-left: 25px;
+
+}

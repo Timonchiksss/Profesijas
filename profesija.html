@@ -1,0 +1,96 @@
+<!-- Mājas lapas dizains. Оформление сайта:background-color- цвет фона, font- шрифт... 
+https://www.w3schools.com/html/default.asp-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+
+<script>
+function krasa1(){
+  document.getElementById('menu').style.background='#6495ED';
+}
+</script>
+<script>
+function krasa2(){
+  document.getElementById('menu').style.background='#808000';
+}
+
+</script>
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML="Paragraph changed.";
+}
+
+</script>
+  </head>
+  <body>
+    <div class="header">
+     <img src="riga.jpg" width="200px">
+     <p>Rīgas Purvciema vidusskola</p>
+     
+    </div>
+    <div id="menu">
+
+<p><a href="index.html">Galvēna</a></p>
+<p><a href="profesija.html">Profesija</a></p>
+
+    </div>
+    <div id="content">
+   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<img src="riga2.jpg" width="200px" height="200px">
+
+<table>
+  <tr>
+    <th> Lorem ipsum dolor </th>
+    <th>Lorem ipsum dolor  </th>
+
+  </tr>
+  <tr>
+    <td> Lorem ipsum dolor </td>
+    <td> Lorem ipsum dolor </td>
+  </tr>
+  <tr>
+    <td> Lorem ipsum dolor </td>
+    <td> Lorem ipsum dolor </td>
+  </tr>
+</table>
+<!-- JavaScript izmantošana -->
+<h2>JavaScript izmantošana</h2>
+<p >JavaScript var mainīt HTML elementu stilu</p>
+<p>Noklikšķiniet uz pogas, lai mainītu saturu fona krāsu </p>
+<button type="button" onclick="document.getElementById('content').style.background='#D3D3D3'">Click Me!</button>
+<button type="button" onclick="document.getElementById('content').style.background='#fdfdb1b7'">Back</button>
+
+<p> Slāņa "menu" fona krāsa </p>
+<button type="button" onclick="krasa1()">Click Me!</button>
+<button type="button" onclick="krasa2()">Back</button>
+<p> Laiks</p>
+<p>Noklikšķiniet uz pogas, lai parādītu datumu </p>
+
+<button onclick="displayDate()">The time is?</button>
+<p id="demo"></p>
+
+<p>Noklikšķiniet uz pogas, lai palieninātu "menu" vārdu izmēru </p>
+
+<button type="button" onclick="document.getElementById('menu').style.fontSize='30px'">Click Me!</button>
+<button type="button" onclick="document.getElementById('menu').style.fontSize='18px'">Back</button>
+
+<p> <a href="https://www.profesijupasaule.lv/" >Informācijas avots</a>  </p>
+    </div>
+    <div class="footer"> Rīga, 2021 </div>
+
+    
+  </body>
+</html>
+
+
